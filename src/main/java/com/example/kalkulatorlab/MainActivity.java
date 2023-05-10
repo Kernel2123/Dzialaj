@@ -73,8 +73,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             dataToCalculate = dataToCalculate+buttonText;
         }
         solution_textView.setText(dataToCalculate);
-        //ssolution_textView.setText("TEST");dupa dupa dupa
-        //dupa dupa dupa dupa udup
+        //test do gituhuba
 
         String finalResult = getResult(dataToCalculate);
         if (!finalResult.equals("error")){
